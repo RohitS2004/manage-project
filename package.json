@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-css-manage-project",
+  "version": "1.0.0",
+  "description": "Manage website clone",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwindcss" : "npx tailwindcss -i ./src/input.css -o ./build/css/main.css --watch",
+    "prettier" : "npx prettier --write **/*.html"
+
+  },
+  "author": "Rohit Saini",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.10"
+  }
+}
