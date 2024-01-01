@@ -576,26 +576,6 @@ video {
   top: 0px;
 }
 
-.top-12 {
-  top: 3rem;
-}
-
-.top-16 {
-  top: 4rem;
-}
-
-.top-1 {
-  top: 0.25rem;
-}
-
-.top-\[\'\'\] {
-  top: '';
-}
-
-.top-\[\'72px\'\] {
-  top: '72px';
-}
-
 .top-\[72px\] {
   top: 72px;
 }
@@ -934,11 +914,6 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-4xl {
