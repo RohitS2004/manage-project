@@ -921,8 +921,8 @@ video {
   line-height: 2.5rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -999,14 +999,6 @@ video {
                
     } */
 
-.placeholder\:text-left::-moz-placeholder {
-  text-align: left;
-}
-
-.placeholder\:text-left::placeholder {
-  text-align: left;
-}
-
 .placeholder\:text-sm::-moz-placeholder {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1028,6 +1020,10 @@ video {
 
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:items-start {
+    align-items: flex-start;
   }
 
   .sm\:items-end {
